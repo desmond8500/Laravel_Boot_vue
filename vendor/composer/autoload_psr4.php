@@ -59,6 +59,7 @@ return array(
     'Laravel\\Ui\\' => array($vendorDir . '/laravel/ui/src'),
     'Laravel\\Tinker\\' => array($vendorDir . '/laravel/tinker/src'),
     'InfyOm\\Generator\\' => array($vendorDir . '/infyomlabs/laravel-generator/src'),
+    'InfyOm\\GeneratorBuilder\\' => array($vendorDir . '/infyomlabs/generator-builder/src'),
     'InfyOm\\CoreUITemplates\\' => array($vendorDir . '/infyomlabs/coreui-templates/src'),
     'Illuminate\\Foundation\\Auth\\' => array($vendorDir . '/laravel/ui/auth-backend'),
     'Illuminate\\' => array($vendorDir . '/laravel/framework/src/Illuminate'),

@@ -31,6 +31,13 @@
       0 => '\\InfyOm\\CoreUITemplates\\CoreUITemplatesServiceProvider',
     ),
   ),
+  'infyomlabs/generator-builder' => 
+  array (
+    'providers' => 
+    array (
+      0 => '\\InfyOm\\GeneratorBuilder\\GeneratorBuilderServiceProvider',
+    ),
+  ),
   'infyomlabs/laravel-generator' => 
   array (
     'providers' => 

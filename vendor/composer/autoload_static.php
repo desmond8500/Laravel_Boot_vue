@@ -131,6 +131,7 @@ class ComposerStaticInit107f83123e5ab18b6e169c81e5cba601
         'I' => 
         array (
             'InfyOm\\Generator\\' => 17,
+            'InfyOm\\GeneratorBuilder\\' => 24,
             'InfyOm\\CoreUITemplates\\' => 23,
             'Illuminate\\Foundation\\Auth\\' => 27,
             'Illuminate\\' => 11,
@@ -396,6 +397,10 @@ class ComposerStaticInit107f83123e5ab18b6e169c81e5cba601
         'InfyOm\\Generator\\' => 
         array (
             0 => __DIR__ . '/..' . '/infyomlabs/laravel-generator/src',
+        ),
+        'InfyOm\\GeneratorBuilder\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/infyomlabs/generator-builder/src',
         ),
         'InfyOm\\CoreUITemplates\\' => 
         array (
@@ -2738,6 +2743,10 @@ class ComposerStaticInit107f83123e5ab18b6e169c81e5cba601
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
         'InfyOm\\CoreUITemplates\\CoreUITemplatesServiceProvider' => __DIR__ . '/..' . '/infyomlabs/coreui-templates/src/CoreUITemplatesServiceProvider.php',
+        'InfyOm\\GeneratorBuilder\\Commands\\GeneratorBuilderRoutesPublisherCommand' => __DIR__ . '/..' . '/infyomlabs/generator-builder/src/Commands/GeneratorBuilderRoutesPublisherCommand.php',
+        'InfyOm\\GeneratorBuilder\\Controllers\\GeneratorBuilderController' => __DIR__ . '/..' . '/infyomlabs/generator-builder/src/Controllers/GeneratorBuilderController.php',
+        'InfyOm\\GeneratorBuilder\\GeneratorBuilderServiceProvider' => __DIR__ . '/..' . '/infyomlabs/generator-builder/src/GeneratorBuilderServiceProvider.php',
+        'InfyOm\\GeneratorBuilder\\Requests\\BuilderGenerateRequest' => __DIR__ . '/..' . '/infyomlabs/generator-builder/src/Requests/BuilderGenerateRequest.php',
         'InfyOm\\Generator\\Commands\\APIScaffoldGeneratorCommand' => __DIR__ . '/..' . '/infyomlabs/laravel-generator/src/Commands/APIScaffoldGeneratorCommand.php',
         'InfyOm\\Generator\\Commands\\API\\APIControllerGeneratorCommand' => __DIR__ . '/..' . '/infyomlabs/laravel-generator/src/Commands/API/APIControllerGeneratorCommand.php',
         'InfyOm\\Generator\\Commands\\API\\APIGeneratorCommand' => __DIR__ . '/..' . '/infyomlabs/laravel-generator/src/Commands/API/APIGeneratorCommand.php',
